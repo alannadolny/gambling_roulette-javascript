@@ -6,6 +6,7 @@
 - [UŻYTE TECHNOLOGIE / BIBLIOTEKI](#użyte-technologie-/-biblioteki)
 - [FUNKCJONALNOŚCI](#funkcjonalności)
 - [STATUS PROJEKTU](#status-projektu)
+- [ZRZUTY EKRANU](#zrzuty-ekranu)
 
 ## URUCHOMIENIE PROJEKTU
 
@@ -118,3 +119,8 @@ Projekt został zakończony (18.01.2022)
 ## ZRZUTY EKRANU
 
 <img src="./jpg/Zrzut ekranu 2022-02-27 024651.png"/>
+<img src="./jpg/Zrzut ekranu 2022-02-27 024711.png"/>
+<img src="./jpg/Zrzut ekranu 2022-02-27 024731.png"/>
+<img src="./jpg/Zrzut ekranu 2022-02-27 024749.png"/>
+<img src="./jpg/Zrzut ekranu 2022-02-27 024812.png"/>
+<img src="./jpg/Zrzut ekranu 2022-02-27 024834.png"/>
