@@ -1,0 +1,29 @@
+const mqtt = require('mqtt');
+const client = mqtt.connect('http://localhost:1883');
+const axios = require('axios');
+const https = require('https');
+
+client.on('connect', () => {
+  client.subscribe('chat/#', () => {
+    client.on('message', (topic, message) => {
+      axios
+        .post(
+          'https://localhost:5000/chats/',
+          {
+            message: JSON.parse(message.toString()).message,
+            username: JSON.parse(message.toString()).username,
+            channel:
+              topic === 'chat/US' ? 'US' : topic === 'chat/PL' ? 'PL' : 'DE',
+          },
+          {
+            httpsAgent: new https.Agent({
+              rejectUnauthorized: false,
+            }),
+          }
+        )
+        .then((value) => {
+          client.publish('new/messages', JSON.stringify(value.data).toString());
+        });
+    });
+  });
+});

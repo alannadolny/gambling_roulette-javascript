@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mqtt": "^4.3.2",
+    "neo4j-driver": "^4.4.1",
+    "sse-channel": "^4.0.0",
+    "uuid": "^8.3.2"
+  }
+}

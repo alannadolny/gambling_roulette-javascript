@@ -1,0 +1,60 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.7",
+    "@mui/x-data-grid": "^5.2.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "aws-sdk": "^2.1058.0",
+    "axios": "^0.24.0",
+    "chart.js": "^3.7.0",
+    "country-flag-icons": "^1.4.19",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "material-ui-popup-state": "^2.0.0",
+    "mqtt": "^4.2.6",
+    "mqtt-react-hooks": "^2.0.3",
+    "react": "17.0.1",
+    "react-chartjs-2": "^4.0.0",
+    "react-custom-roulette": "^1.1.8",
+    "react-dom": "17.0.1",
+    "react-hooks-sse": "^2.0.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

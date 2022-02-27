@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "id": 0,
+      "description": "Behind bad luck comes good luck."
+    },
+    {
+      "id": 1,
+      "description": "Money won is twice as sweet as money earned."
+    },
+    {
+      "id": 2,
+      "description": "Nobody has ever bet enough on a winning horse."
+    },
+    {
+      "id": 3,
+      "description": "Gambling is not about how well you play the games, it's really about how well you handle your money."
+    },
+    {
+      "id": 4,
+      "description": "At gambling, the deadly sin is to mistake bad play for bad luck."
+    },
+    {
+      "id": 5,
+      "description": "There is a very easy way to return from a casino with a small fortune; go there with a large one."
+    }
+  ]
+}
