@@ -63,7 +63,7 @@
 </hivemq>
 ```
 
-## UŻYTE TECHNOLOGIE / BLIBLOTEKI:
+## UŻYTE TECHNOLOGIE / BLIBLOTEKI
 
 Frontend:
 
@@ -114,3 +114,7 @@ Jako baza danych został użyty Neo4j
 ## STATUS PROJEKTU
 
 Projekt został zakończony (18.01.2022)
+
+## ZRZUTY EKRANU
+
+<img src="./jpg/Zrzut ekranu 2022-02-27 024651.png"/>
