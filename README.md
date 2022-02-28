@@ -81,6 +81,7 @@ Frontend:
 - react-router-dom
 - uuid
 - yup
+- lodash
 
 Backend:
 
